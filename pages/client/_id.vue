@@ -106,8 +106,9 @@
               class="progress is-small is-primary"
               :value="form.progress"
               max="100"
-              >{{ form.progress }}</progress
             >
+              {{ form.progress }}
+            </progress>
           </b-field>
         </card-component>
       </tiles>
